@@ -1,27 +1,51 @@
+<div align="center">
+<a href="https://leonidasesteban.com/proyectos">
+  <img width="120px"  src="https://raw.githubusercontent.com/no-te-rindas/logo/main/Logo/LeonidasEsteban-destello-envolvente-cuadrada.png" />
+</a>
+</div>
+
 # Striped
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.0.
+Muestrale a cientos de empresas los beneficios de usar esta increíble pasarela de pagos, además crearás un gran diseño lleno de color.
 
-## Development server
+## Desktop
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<img width="400px"  src="https://github.com/no-te-rindas/imagenes/blob/main/Readmes/striped/striped-desktop.png?raw=true" />
 
-## Code scaffolding
+## Mobile
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<img width="280px"  src="https://github.com/no-te-rindas/imagenes/blob/main/Readmes/striped/striped-mobile.png?raw=true" />
 
-## Build
+## Disclaimer
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Todas son propuestas, el propósito de **/Proyectos** es brindarte el diseño, el límite de la creación lo dictan tus ganas de hacerlo realidad y tu skills del momento a la hora de codear.
 
-## Running unit tests
+## Nivel 1
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Estilo libre. Lleva el diseño al código utilizando tu framework favorito, o con HTML y CSS, no hay ninguna limitación.
 
-## Running end-to-end tests
+Requerimientos
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Accesibilidad como prioridad
+- Sube tu código a GitHub
+- Publica tu resultado con github pages
+- Mándalo a revisión desde tu [perfil](https://leonidasesteban.com/estudiante)
 
-## Further help
+## Nivel 2
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Crea el sitio mobile first, utiliza la propieda clip path para crear los polígonos.
+
+Requerimientos
+
+- Accesibilidad como prioridad
+- Usa clip path
+- Mobile first
+- Sube tu código a GitHub
+- Publica tu resultado con github pages
+- Mándalo a revisión desde tu [perfil](https://leonidasesteban.com/estudiante)
+
+## Créditos
+
+Encuentra más proyectos asombrosos en [/Proyectos](https://leonidasesteban.com/proyectos)
+
+Diseñado con ♥️ en [leonidasesteban.com](https://leonidasesteban.com)
