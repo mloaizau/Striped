@@ -1,18 +1,63 @@
-@import url(https://allfont.es/allfont.css?fonts=impact);
-@font-face {
-    font-family: "Helvetica Neue";
-    src: url("../fonts/helveticaneue-regular.ttf");
-}
-@font-face {
-    font-family: "Helvetica Neue Medium";
-    src: url("../fonts/helveticaneue-medium.ttf");
-}
-@font-face {
-    font-family: "Helvetica Neue Bold";
-    src: url("../fonts/HelveticaNeue-Bold.ttf");
+/*              Objetos                     */
+
+.o-button{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 15px;
+    display: inline-flex;
 }
 
-.backgound-gradient{
+.o-upTitle{
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.o-color__purple{
+    color: #635CFF;
+}
+
+.o-color__blue{
+    color: #01D4FF;
+}
+
+.o-title{
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.o-title--gray{
+    color: #393939;
+}
+
+.o-title--white{
+    color: #FFFFFF;
+}
+
+.o-subtitle{
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/*              Selectores                  */
+
+mat-icon{
+    font-size: 18px;
+    padding-top: 4px;
+}
+
+/*              Componentes                 */
+
+.c-background__gradient{
     background: radial-gradient(73.93% 155.79% at 56.93% 16.11%, #EE755C 16.67%, rgba(144, 224, 255, 0) 48.34%),
     radial-gradient(34.96% 33.39% at 56.66% 50%, #FF333D 44.79%, rgba(169, 96, 238, 0) 83.19%),
     radial-gradient(13.35% 23.03% at 6.58% 67.25%, #AFE9FF 0%, #90E0FF 41.45%, rgba(144, 224, 255, 0) 100%),
@@ -27,17 +72,21 @@
     background-blend-mode: hard-light, normal, normal, normal, normal, normal, normal, normal, normal, normal, normal;
     filter: blur(24px);
 }
-
-.header{
+.c-background__clip-path{
     height: 535px;
     clip-path: polygon(0 0, 100% 0%, 100% 23%, 0% 80%);
 }
-.menu{
+.c-contenedor{
+    position: absolute;
+    top: 10%;
+    width: 99%;
+}
+.c-menu{
     color: #FFFFFF;
     background: none;
     position: absolute;
     top: 0;
-    .logo{
+    .c-menu__logo{
         font-family: "Impact";
         font-size: 26px;
         font-style: normal;
@@ -46,45 +95,29 @@
         letter-spacing: 0.01em;
         // text-align: center;
     }
-    .tabs{
-        a{
-            font-family: 'Helvetica Neue Bold';
-            font-size: 17px;
-            line-height: 24px;
-            letter-spacing: 0em;
-            text-align: center;
-            text-decoration: none;
-            color: #FFFFFF;
-            margin-left: 32px;
-        }
+    .c-menu__tabs a{
+        font-family: 'Helvetica Neue Bold';
+        font-size: 17px;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        text-decoration: none;
+        color: #FFFFFF;
+        margin-left: 32px;
+        
     }
-    .btn-signin{
+    .c-menu__button{
         font-family: "Helvetica Neue";
-        // text-align: center;
-        button{
-            font-size: 16px;
-            font-style: normal;
-            font-weight: bolder;
-            line-height: 24px;
-            letter-spacing: 0.01em;
-            text-align: center;
-            border: none;
-            border-radius: 20px;
-            padding: 6px 15px;
-            color: #FFFFFF;
-            background: rgba(255, 255, 255, 0.2);
-            display: inline-flex;
-        }
+        font-style: normal;
+        font-weight: bolder;
+        color: #FFFFFF;
+        background: rgba(255, 255, 255, 0.2);
     }
 }
-.contenedor{
-    position: absolute;
-    top: 10%;
-    width: 99%;
-}
-.info-header{
+
+.c-header{
     width: 100%;
-    .info-section{
+    .c-header__info{
         margin-top: 65px;
         font-family: "Helvetica Neue Bold";
         text-align: left;
@@ -100,27 +133,13 @@
             line-height: 34px;
             letter-spacing: 0em;
         }
-        button{
-            align-items: center;
-        }
-        .btn-start{
+        .c-header__button-start{
             font-family: "Helvetica Neue Medium";
-            font-size: 15px;
-            line-height: 24px;
-            letter-spacing: 0.01em;
-            text-align: center;
-            border: none;
-            border-radius: 20px;
-            padding: 6px 15px;
             color: #FFFFFF;
             background: #11253E;
-            display: inline-flex;
+            
         }
-        mat-icon{
-            font-size: 18px;
-            padding-top: 4px;
-        }
-        .btn-contact{
+        .c-header__button-contact{
             border: none;
             background: none;
             display: inline-flex;
@@ -132,7 +151,7 @@
             margin-left: 20px;
         }
     }
-    .img-header{
+    .c-header__image{
         #desktop{
             // width:486px;
             // float: right;
@@ -147,9 +166,9 @@
     }
 }
 
-.sections{
-    .section-one, 
-    .section-two{
+.c-sections{
+    .c-sections__one, 
+    .c-sections__two{
         height: 40px;
         justify-content: space-around;
         align-items: center;
@@ -157,7 +176,7 @@
             width: auto;
         }
     }
-    .section-two{
+    .c-sections__two{
         margin-top: 80px;
         margin-bottom: 128px;
         #zoom{
@@ -165,3 +184,15 @@
         }
     }
 }
+
+.c-infoOne{
+    margin-top: 80px;
+    .c-infoOne__button{
+        font-family: "Helvetica Neue Medium";
+        width: auto;
+        margin: 30px 0px;
+        color: #FFFFFF;
+        background-color: #635CFF;
+    }
+}
+
