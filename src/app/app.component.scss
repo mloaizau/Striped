@@ -17,6 +17,11 @@
     font-family: "Helvetica Neue Medium";
 }
 
+.o-button--purple{
+    background: #635CFF;
+    color: #FFFFFF;
+}
+
 .o-upTitle{
     font-size: 18px;
     line-height: 34px;
@@ -191,9 +196,6 @@ mat-icon{
     }
     .c-header__image{
         #desktop{
-            // width:486px;
-            // float: right;
-            // margin-right: -24px;
             margin-left: 130px;
         }
         #mobile{
@@ -297,6 +299,28 @@ mat-icon{
     }
 }
 
+.c-footer{
+    .c-footer__logo{
+        font-family: "Impact";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        text-align: left;
+    }
+    a{
+        text-decoration: none;
+        color: #393939;
+        font-family: "Helvetica Neue Medium";
+        font-size: 18px;
+        font-style: normal;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}
+
 /*              Utilidades                  */
 
 .u-mb__32{
@@ -319,6 +343,23 @@ mat-icon{
     margin-top: 80px;
 }
 
+.u-pb__300{
+    padding-bottom: 300px;
+}
+
 .u-inline-flex{
     display: inline-flex;
+}
+
+.u-flex__column{
+    display: flex;
+    flex-direction: column;
+}
+
+.u-ml-30{
+    margin-left: 30px;
+}
+
+.u-background__gray{
+    background: #F6F9FC;
 }
