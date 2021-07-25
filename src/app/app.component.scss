@@ -63,6 +63,10 @@
     margin-left: -15px;
 }
 
+.o-bar--xl{
+    height: 48px;
+}
+
 .o-bar--purple{
     background: #635CFF;
 }
@@ -190,7 +194,7 @@ mat-icon{
             // width:486px;
             // float: right;
             // margin-right: -24px;
-            margin-left: 27.5%;
+            margin-left: 130px;
         }
         #mobile{
             position: absolute;
@@ -278,12 +282,17 @@ mat-icon{
     margin-top: -1px;
     .c-infoFour__c-img{
         position: absolute;
-        margin-left: 27px;
+        margin-left: 25px;
         padding: 0;
         .c-infoFour__img{
-            width: 300px;
-            height: 800px;
+            width: 365px;
+            height: 1000px;
             float: right;
+        }
+    }
+    .c-infoFour-columns{
+        div:last-child{
+            z-index: 1;
         }
     }
 }
