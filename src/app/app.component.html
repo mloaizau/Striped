@@ -33,7 +33,6 @@
         </button>
       </div>
       <div class="col-sm-6 c-header__image">
-        <img id="desktop" src="assets/images/desktop.png">
         <img id="mobile" src="assets/images/mobile.png" alt="">
       </div>
     </div>
@@ -48,7 +47,7 @@
         <img id="zoom" src="assets/images/zoom.png">
         <img src="assets/images/shopify.png">
         <img src="assets/images/maskota.png">
-        <img src="assets/images/siclo.png">
+        <img id="siclo" src="assets/images/siclo.png">
       </div>
     </div>
     <div class="row c-infoOne">
@@ -64,7 +63,7 @@
           <span class="o-color__purple"> online and in-person retailers,
             subscriptions businesses, software platforms and marketplaces </span>
           , and everything in between.</label>
-          <button class="o-button c-infoOne__button">
+          <button class="o-button c-infoOne__button" id="one">
             Start with paymets
             <mat-icon aria-hidden="false">chevron_right</mat-icon>
           </button>
@@ -74,6 +73,10 @@
           <span class="o-color__purple">beat fraud, send invoices, issue virtual and physical cards, 
           get financing, manage business spend </span>
           , and much more.</label>
+          <button class="o-button c-infoOne__button" id="two">
+            Start with paymets
+            <mat-icon aria-hidden="false">chevron_right</mat-icon>
+          </button>
       </div>
       <div class="row c-images">
         <div class="col-sm-3 offset-sm-1 c-images__one">
@@ -85,6 +88,9 @@
           <img src="assets/images/producto3.png" alt="">
           <img src="assets/images/producto5.png" alt="">
         </div>
+      </div>
+      <div class="c-images--mobile">
+        <img src="assets/images/sectionsMobile.png">
       </div>
       <div class="row c-background__clip-blue"></div>
     </div>
@@ -201,9 +207,6 @@
       </div>
     </div>
     <div class="row c-infoFour">
-      <div class="c-infoFour__c-img">
-        <img class="c-infoFour__img" src="assets/images/world.png">
-      </div>
       <div class="row c-background__clip-white"></div>
       <div class="col-sm-6 offset-sm-1">
         <div class="row u-mt__80">
@@ -258,7 +261,7 @@
         </div>
       </div>     
     </div>
-    <div class="row u-mt__80 u-pb-80">
+    <div class="row c-infoFive u-mt__80 u-pb-80">
       <div class="col-sm-11 offset-sm-1 u-inline-flex">
         <div class="col-sm-5">
           <p class="o-title o-title--gray u-mb__32">Ready to get started?</p>
@@ -345,7 +348,26 @@
           <a href="#">Newsroom</a>
         </div>
         <div class="col-sm-3 u-flex__column">
-          <a href="#">Use cases</a>
+          <div>
+            <a href="#">Use cases</a>
+            <a href="#">SaaS</a>
+            <a href="#">Platforms</a>
+            <a href="#">Marketplaces</a>
+            <a href="#">Ecommerce</a>
+          </div>
+          <br>
+          <div>
+            <a href="#">Resources</a>
+            <a href="#">Support</a>
+            <a href="#">Contact</a>
+            <a href="#">Guides</a>
+            <a href="#">Privacy & terms</a>
+            <a href="#">Licenses</a>
+            <a href="#">Covid-19</a>
+            <a href="#">Sitemap</a>
+            <a href="#">Cookie settings</a>
+          </div>
+          <!-- <a href="#">Use cases</a>
           <a href="#">SaaS</a>
           <a href="#">Platforms</a>
           <a href="#">Marketplaces</a>
@@ -359,7 +381,7 @@
           <a href="#">Licenses</a>
           <a href="#">Covid-19</a>
           <a href="#">Sitemap</a>
-          <a href="#">Cookie settings</a>
+          <a href="#">Cookie settings</a> -->
         </div>
       </div>
     </div>
