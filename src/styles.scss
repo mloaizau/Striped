@@ -35,7 +35,10 @@ $striped-theme: mat.define-light-theme((
 
 /* You can add global styles to this file, and also import other style files */
 
-@import url(https://allfont.es/allfont.css?fonts=impact);
+@font-face {
+  font-family: "Impact";
+  src: url("./fonts/impact.ttf");
+}
 @font-face {
     font-family: "Helvetica Neue";
     src: url("./fonts/helveticaneue-regular.ttf");
