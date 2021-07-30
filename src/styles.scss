@@ -54,3 +54,36 @@ body {
   margin: 0; 
   font-family: "Helvetica Neue Bold", sans-serif; 
 }
+
+/*              Utilidades                  */
+.u-mb__32 {
+  margin-bottom: 32px;
+}
+.u-mb-24 {
+  margin-bottom: 24px;
+}
+.u-mb-37 {
+  margin-bottom: 37px;
+}
+.u-pb-80 {
+  padding-bottom: 80px;
+}
+.u-mt__80 {
+  margin-top: 80px;
+}
+.u-pb__300 {
+  padding-bottom: 300px;
+}
+.u-inline-flex {
+  display: inline-flex;
+}
+.u-flex__column {
+  display: flex;
+  flex-direction: column;
+}
+.u-ml-30 {
+  margin-left: 30px;
+}
+.u-background__gray {
+  background: #F6F9FC;
+}
