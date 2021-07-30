@@ -55,6 +55,78 @@ body {
   font-family: "Helvetica Neue Bold", sans-serif; 
 }
 
+/*              Objetos                     */
+.o-button {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  padding: 6px 15px;
+  display: inline-flex;
+}
+.o-button--none {
+  background: none;
+  padding: 0;
+  font-family: "Helvetica Neue Medium";
+}
+.o-button--purple {
+  background: #635CFF;
+  color: #FFFFFF;
+}
+.o-upTitle {
+  font-size: 18px;
+  line-height: 34px;
+  letter-spacing: 0;
+  text-align: left;
+}
+.o-color__purple {
+  color: #635CFF;
+}
+.o-color__blue {
+  color: #01D4FF;
+}
+.o-title {
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0;
+  text-align: left;
+}
+.o-title--gray {
+  color: #393939;
+}
+.o-subtitle {
+  color: #425466;
+  font-size: 18px;
+  line-height: 34px;
+  letter-spacing: 0;
+  text-align: left;
+}
+.o-title--white,
+.o-subtitle--white {
+  color: #FFFFFF;
+}
+.o-bar {
+  width: 2px;
+  position: absolute;
+  height: 24px;
+  background: #01D4FF;
+  margin-left: -15px;
+}
+.o-bar--xl {
+  height: 48px;
+}
+.o-bar--purple {
+  background: #635CFF;
+}
+
+/*              Selectores                  */
+mat-icon {
+  font-size: 18px;
+  padding-top: 4px;
+}
+
 /*              Utilidades                  */
 .u-mb__32 {
   margin-bottom: 32px;
